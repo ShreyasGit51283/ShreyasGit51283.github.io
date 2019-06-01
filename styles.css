@@ -126,3 +126,12 @@ span.selected {
   border-bottom: 2px solid #2386fe;
   padding-bottom: 5px;
 }
+
+/*mediaqueries*/
+@media only screen and (max-width: 600px) {
+  .menuitem {font-size:10px;
+  }
+  .logo{width:100%;
+
+  }
+}
