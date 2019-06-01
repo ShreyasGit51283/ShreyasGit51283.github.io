@@ -129,11 +129,52 @@ span.selected {
 
 /*mediaqueries*/
 @media only screen and (max-width: 600px) {
-  .menuitem {font-size:10px;
+
+  .menuitem {
+    font-size:10px!important;
     margin-top:10px;
     width:30%;
   }
-  .logo{width:100%;
 
+  .logo
+  {
+    width:100%;
   }
+  .content
+  {
+    padding:0;
+  }
+  .social
+  {
+     font-size: 12px!important;
+     font-weight: 400;
+     padding-right: 0px;
+     margin-top:100px;
+     margin-bottom:40px;
+     text-align: center;
+}
+ul {
+    padding: 0;
+}
+.row{
+padding:0;
+}
+.articles {
+  padding :0;
+  margin-top:30px;
+text-align: center;
+}
+
+button.btn.info {
+    font-size: 12px;
+}
+
+.col-sm-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
 }
