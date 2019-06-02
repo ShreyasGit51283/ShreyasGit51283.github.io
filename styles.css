@@ -127,6 +127,19 @@ span.selected {
   padding-bottom: 5px;
 }
 
+/*Inspirations*/
+.inspi{
+  line-height: 1;
+}
+p.inspi {
+    color: #666;
+    margin-bottom:30px;
+}
+h4.inspirations {
+    margin-bottom: 3px;
+}
+
+
 /*mediaqueries*/
 @media only screen and (max-width: 600px) {
 
