@@ -206,10 +206,13 @@ button.btn.info {
 .innerpage {
   }
 
-  .links{
-    margin-left:20px;
-    margin-right:20px;
-  }
+.full{
+margin: 0px 20px 0px 20px;
+}
+.links{
+  margin:0px;
+  margin-top:60px;
+}
 
 h4 {
   margin-bottom: 10px;
