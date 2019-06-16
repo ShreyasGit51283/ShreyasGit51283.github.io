@@ -141,8 +141,8 @@ p.inspi {
 }
 
 .allinspirationlinks {
-    margin-left: 8rem;
-    margin-right: 8rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 h4.inspirations {
@@ -232,29 +232,27 @@ h5.articlefooter {
     margin-top: 10px;
     width: 30%;
   }
+
   .articleshomepage {
     padding-left: 0;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .articlepagelinks {
-    margin: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+
   .content {
     padding: 0rem;
   }
+
   .homepagearticlelink {
     text-align: left;
     margin-top: 60px;
   }
+
   .allinspirationlinks {
-   margin-left:20px;
-   margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
-
 
 .logo {
   width: 100%;
@@ -282,8 +280,6 @@ ul {
   padding-left: 8rem;
 }
 
-
-
 button.btn.info {
   font-size: 12px;
 }
@@ -303,15 +299,12 @@ button.btn.info {
 .innerpage {}
 
 .full {
-  margin: 0px 20px 0px 20px;
-}
-
-.articlepagelinks {
-  margin: 0px;
-  margin-top: 30px;
+  margin: 250px 20px 0px 20px;
   margin-left: 8rem;
   margin-right: 8rem;
 }
+
+
 
 h4 {
   margin-bottom: 40px;
@@ -323,25 +316,27 @@ h4 {
     margin-top: 10px;
     width: 30%;
   }
+
   .articleshomepage {
     padding-left: 0;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .articlepagelinks {
-    margin: 0px;
+
+  .full {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+
   .content {
     padding: 0rem;
     padding: 0rem;
     margin: 0px 20px 0px 20px;
-}
+  }
 
   .homepagearticlelink {
     text-align: left;
     margin-top: 60px;
   }
-
 }
