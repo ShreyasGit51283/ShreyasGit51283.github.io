@@ -232,7 +232,9 @@ h5.articlefooter {
     margin-top: 10px;
     width: 30%;
   }
-
+  .logo {
+    width: 100%;
+  }
   .articleshomepage {
     padding-left: 0;
     margin-left: 20px;
@@ -253,15 +255,16 @@ h5.articlefooter {
     margin-right: 20px;
   }
 }
+
+/*end of media queries*/
+
+
 ul {
     padding: 0;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.logo {
-  width: 100%;
-}
 
 .social {
   font-size: 12px !important;
