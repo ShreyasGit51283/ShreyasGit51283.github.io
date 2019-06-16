@@ -140,6 +140,11 @@ p.inspi {
   margin-bottom: 30px;
 }
 
+.allinspirationlinks {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
 h4.inspirations {
   margin-bottom: 3px;
 }
@@ -244,6 +249,10 @@ h5.articlefooter {
     text-align: left;
     margin-top: 60px;
   }
+  .allinspirationlinks {
+   margin-left:20px;
+   margin-right: 20px;
+  }
 }
 
 
@@ -329,7 +338,7 @@ h4 {
     padding: 0rem;
     margin: 0px 20px 0px 20px;
 }
-  
+
   .homepagearticlelink {
     text-align: left;
     margin-top: 60px;
