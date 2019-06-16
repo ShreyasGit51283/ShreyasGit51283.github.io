@@ -109,6 +109,7 @@ span.taglinelinks {
 img.logos {
   margin-right: 30px;
   margin-bottom: 30px;
+      max-width: 100px;
 }
 
 .section {
