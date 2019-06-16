@@ -70,14 +70,16 @@ h3 {
   line-height: 1.5;
   font-weight: 300;
 }
+
 h4 {
   font-weight: 900;
   font-size: 2rem;
   color: #666666;
   margin-bottom: 60px;
 }
-h5{
-  line-height:1.5;
+
+h5 {
+  line-height: 1.5;
 }
 
 p {
@@ -122,10 +124,6 @@ img.logos {
   padding: 8rem;
 }
 
-
-
-
-
 /*About Me*/
 span.selected {
   border-bottom: 2px solid #2386fe;
@@ -133,100 +131,168 @@ span.selected {
 }
 
 /*Inspirations*/
-.inspi{
+.inspi {
   line-height: 1;
 }
+
 p.inspi {
-    color: #666;
-    margin-bottom:30px;
+  color: #666;
+  margin-bottom: 30px;
 }
+
 h4.inspirations {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .links {
-    margin-left: 8rem;
-    margin-right: 8rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .innerpage {
-    max-width: 800px;
-    margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 .bonusfact {
-    text-align: left;
-    background: #efefef;
-    padding: 20px;
-    margin-bottom: 30px;
-    margin-top:60px;
+  text-align: left;
+  background: #efefef;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 60px;
 }
+
+/*blogpost styling*/
+.titleblock {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 230px;
+}
+
+h4.black.articletitle {
+  margin-bottom: 20px;
+}
+
+h5.subtitle {
+  margin-bottom: 40px;
+}
+
+p.timestamp {
+  color: #666666;
+  margin-bottom: 40px;
+}
+
+p.quote {
+  width: 400px;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #666666;
+}
+
+.articlebody {
+  max-width: 800px;
+  margin: auto;
+  line-height: 2;
+}
+
+.articleimages {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.articlelist {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 230px;
+}
+
+span.firstpara {
+    font-size: 18px;
+}
+
+.articlesubhead{
+margin-top:60px;
+font-weight:900;
+}
+
+h5.articlefooter {
+    border-bottom: 2px solid #007aff;
+    display: inline-block;
+}
+
 
 /*mediaqueries*/
 @media only screen and (max-width: 600px) {
-
   .menuitem {
-    font-size:10px!important;
-    margin-top:10px;
-    width:30%;
+    font-size: 10px !important;
+    margin-top: 10px;
+    width: 30%;
   }
 
-  .logo
-  {
-    width:100%;
+  .logo {
+    width: 100%;
   }
-  .content
-  {
-    padding:0;
+
+  .content {
+    padding: 0;
     line-height: 1;
   }
-  .social
-  {
-     font-size: 12px!important;
-     font-weight: 400;
-     padding-right: 0px;
-     margin-top:120px;
-     margin-bottom:40px;
-     text-align: center;
-}
-ul {
+
+  .social {
+    font-size: 12px !important;
+    font-weight: 400;
+    padding-right: 0px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  ul {
     padding: 0;
-}
-.row{
-padding:0;
-}
-.articles {
-  padding :0;
-  margin-top:30px;
-text-align: center;
-}
+  }
 
-button.btn.info {
+  .row {
+    padding: 0;
+  }
+
+  .articles {
+    padding: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  button.btn.info {
     font-size: 12px;
-}
+  }
 
-.col-sm-6 {
+  .col-sm-6 {
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
-}
-
-.aboutme {
-    padding: 20px;
-}
-.innerpage {
   }
 
-.full{
-margin: 0px 20px 0px 20px;
-}
-.links{
-  margin:0px;
-  margin-top:60px;
-}
+  .aboutme {
+    padding: 20px;
+  }
 
-h4 {
-  margin-bottom: 10px;
-}
+  .innerpage {}
+
+  .full {
+    margin: 0px 20px 0px 20px;
+  }
+
+  .links {
+    margin: 0px;
+    margin-top: 60px;
+  }
+
+  h4 {
+    margin-bottom: 10px;
+  }
