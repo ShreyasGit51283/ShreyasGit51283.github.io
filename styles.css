@@ -109,7 +109,7 @@ span.taglinelinks {
 img.logos {
   margin-right: 30px;
   margin-bottom: 30px;
-      max-width: 100px;
+  max-width: 100px;
 }
 
 .section {
@@ -146,7 +146,7 @@ h4.inspirations {
 }
 
 .links {
- margin-left: 8rem;
+  margin-left: 8rem;
   margin-right: 8rem;
 }
 
@@ -212,19 +212,18 @@ p.quote {
 }
 
 span.firstpara {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.articlesubhead{
-margin-top:60px;
-font-weight:900;
+.articlesubhead {
+  margin-top: 60px;
+  font-weight: 900;
 }
 
 h5.articlefooter {
-    border-bottom: 2px solid #007aff;
-    display: inline-block;
+  border-bottom: 2px solid #007aff;
+  display: inline-block;
 }
-
 
 /*mediaqueries*/
 @media only screen and (max-width: 600px) {
@@ -233,66 +232,74 @@ h5.articlefooter {
     margin-top: 10px;
     width: 30%;
   }
+}
 
-  .logo {
-    width: 100%;
-  }
-
-  .content {
-    padding: 0;
-    line-height: 1;
-  }
-
-  .social {
-    font-size: 12px !important;
-    font-weight: 400;
-    padding-right: 0px;
-    margin-top: 120px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  ul {
-    padding: 0;
-  }
-
-  .row {
-    padding: 0;
-  }
-
-  .articles {
-    padding: 0;
-    margin-top: 30px;
-    text-align: center;
-  }
-
-  button.btn.info {
-    font-size: 12px;
-  }
-
-  .col-sm-6 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    text-align: center;
-  }
-
-  .aboutme {
-    padding: 20px;
-  }
-
-  .innerpage {}
-
-  .full {
-    margin: 0px 20px 0px 20px;
-  }
-
-  .links {
-    margin: 0px;
+@media only screen and (max-width: 600px) {
+  .homepagearticlelink {
+    text-align: left;
     margin-top: 60px;
   }
+}
 
-  h4 {
-    margin-bottom: 10px;
-  }
+.logo {
+  width: 100%;
+}
+
+.content {
+  padding: 0;
+  line-height: 1;
+}
+
+.social {
+  font-size: 12px !important;
+  font-weight: 400;
+  padding-right: 0px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+.row {
+  padding: 0;
+}
+
+.articles {
+  padding: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+button.btn.info {
+  font-size: 12px;
+}
+
+.col-sm-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.aboutme {
+  padding: 20px;
+}
+
+.innerpage {}
+
+.full {
+  margin: 0px 20px 0px 20px;
+}
+
+.links {
+  margin: 0px;
+  margin-top: 60px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
