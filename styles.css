@@ -253,6 +253,11 @@ h5.articlefooter {
     margin-right: 20px;
   }
 }
+ul {
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .logo {
   width: 100%;
