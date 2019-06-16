@@ -39,7 +39,7 @@ a.contactme {
 .social a {
   font-size: 14px;
   padding-right: 35px;
-  margin-top:40px;
+  margin-top:160px;
   margin-bottom: 40px;
 line-height: 2.5;
 }
@@ -57,7 +57,7 @@ body {
 
 .content {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 250px;
   padding: 8rem;
   padding-bottom: 30px;
 }
@@ -236,6 +236,14 @@ h5.articlefooter {
     width: 30%;
   }
 }
+@media only screen and (max-width: 600px) {
+  .content {
+      padding: 0rem;
+      
+  }
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .homepagearticlelink {
