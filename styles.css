@@ -75,7 +75,7 @@
 
 @media only screen and (max-width: 600px) {
   .full {
-    max-width: 320px;
+    max-width: 350px;
     margin: auto;
     margin-top: 3rem;
   }
