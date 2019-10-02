@@ -1,6 +1,7 @@
 .topnav {
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: white;
+  border-bottom: 1px solid #f3f3f3;
   border-top: 1px solid #eaeaea;
   position: fixed;
   top: 0;
@@ -25,31 +26,16 @@
   color: black;
 }
 
-.social {
-  float: right;
-  padding-right: 30px;
-  display: block;
-  margin-top: 80px;
-  margin-right: 0px;
+a.menuitem {
+    float: right;
+        color: #666666;
 }
 
-@media only screen and (max-width: 600px) {
-  .social {
-    all: initial;
-    margin-top: 120px;
-    text-align: center;
-    font-family: inherit;
-    display: block;
-  }
+.fab {
+    font-size:20px;
 }
 
-.social a {
-  font-size: 14px;
-  padding-right: 35px;
-  margin-top: 160px;
-  margin-bottom: 40px;
-  line-height: 2.5;
-}
+
 
 @media only screen and (max-width: 600px) {
   .social a {
@@ -60,26 +46,23 @@
 }
 
 .full {
-  max-width: 800px;
-  margin: auto;
-  margin-top: 15rem;
+    max-width: 60%;
+    margin-top: 10rem;
+    margin: auto;
+    padding: 3rem;
+    padding-top: 9rem;
 }
-
 @media only screen and (max-width: 800px) {
   .full {
-    max-width: 700px;
-    margin: auto;
-    margin-top: 15rem;
+    max-width: 100%
+
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .full {
-    max-width: 360px;
-    margin: auto;
-    margin-top: 3rem;
-  }
-}
+
+
+
+
 
 a.contactme {
   font-weight: 900;
@@ -87,15 +70,13 @@ a.contactme {
 }
 
 a.logo {
-  font-weight: 900 !important;
+  font-weight: 600 !important;
   font-size: 20px !important;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  background: #fafafa;
-  padding-top: 20px;
-}
+
+
+
 
 ul.frontpage {
   margin-top: 40px;
@@ -107,7 +88,7 @@ ul.frontpage {
 h1 {
   font-size: 2.5rem;
   font-weight: 900;
-  font-family: Montserrat;
+  font-family: inherit;
   margin-bottom: 30px;
 }
 
@@ -161,16 +142,16 @@ span.taglinelinks {
 }
 
 img.logos {
-  margin-right: 30px;
+  margin-right: 60px;
   margin-bottom: 30px;
   max-width: 100px;
 }
+ hr {border-bottom: 1px dotted #d2d2d2;}
 
 .section {
-  border-top: 1px solid #D8D8D8;
-  padding-top: 80px;
-  border-bottom: 1px solid #D8D8D8;
-  padding-bottom: 80px;
+  margin-top: 60px;
+  padding-top: 30px;
+
 }
 
 /*About Me*/
@@ -195,10 +176,7 @@ h4.inspirations {
   margin-bottom: 3px;
 }
 
-.innerpage {
-  max-width: 800px;
-  margin: auto;
-}
+
 
 .bonusfact {
   text-align: left;
@@ -308,13 +286,15 @@ h5.articlefooter {
 
 button.btn.info {
   font-size: 12px;
+  border: 1px solid #007BFF;
+  color: #007BFF;
 }
 
 .aboutme {
   padding: 20px;
 }
 
-.innerpage {}
+
 
 h4 {
   margin-bottom: 40px;
@@ -324,7 +304,7 @@ h4 {
   .menuitem {
     font-size: 10px !important;
     margin-top: 10px;
-    width: 30%;
+    width: 33%;
   }
 
   .articleshomepage {
