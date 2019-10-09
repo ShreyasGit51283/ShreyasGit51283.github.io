@@ -295,7 +295,8 @@ h5.articlefooter {
 button.btn.info {
   font-size: 12px;
   color: white;
-  background-color:black
+  background-color:black;
+  box-shadow: 1px 12px 13px 0px #8396ab7a;
 }
 
 .aboutme {
