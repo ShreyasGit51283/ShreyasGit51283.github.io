@@ -46,7 +46,7 @@ a.menuitem {
 }
 
 .full {
-    max-width: 70%;
+    max-width: 50%;
     margin-top: 10rem;
     margin: auto;
     padding: 3rem;
@@ -110,7 +110,7 @@ h5 {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 span.taglinelinks {
@@ -223,6 +223,7 @@ p.quote {
 .articlebody {
   max-width: 800px;
   margin: auto;
+  margin-left: 0;
   line-height: 2;
 }
 
