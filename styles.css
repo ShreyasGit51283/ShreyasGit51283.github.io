@@ -109,9 +109,7 @@ h5 {
   line-height: 1.5;
 }
 
-p {
-  line-height: 1.5;
-}
+
 
 span.taglinelinks {
   text-decoration: underline;
@@ -204,6 +202,9 @@ h4.black.articletitle {
 
 h5.subtitle {
   margin-bottom: 40px;
+}
+p {font-size:14px;
+  line-height: 1.7;
 }
 
 p.timestamp {
