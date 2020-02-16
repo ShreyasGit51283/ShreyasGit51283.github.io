@@ -55,6 +55,7 @@ a.menuitem {
 }
 @media only screen and (max-width: 800px) {
   .full {
+    margin-top: 10rem;
     max-width: 100%;
     padding:1rem;
 
