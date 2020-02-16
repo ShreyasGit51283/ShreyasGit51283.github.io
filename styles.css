@@ -29,6 +29,7 @@
 a.menuitem {
     float: right;
         color: #666666;
+        font-weight:bolder;
 }
 
 .fab {
@@ -46,7 +47,7 @@ a.menuitem {
 }
 
 .full {
-    max-width: 50%;
+    max-width: 80%;
     margin-top: 10rem;
     margin: auto;
     padding: 3rem;
@@ -70,7 +71,7 @@ a.contactme {
 }
 
 a.logo {
-  font-weight: 600 !important;
+  font-weight: 200 !important;
   font-size: 20px !important;
 }
 
@@ -257,7 +258,7 @@ h5.articlefooter {
 }
 
 .section.work {
-  text-align:center;
+  text-align:left;
 }
 
 /*mediaqueries*/
