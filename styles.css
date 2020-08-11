@@ -21,15 +21,16 @@
   font-size: 14px;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+    font-weight: 400;
 }
 
 a.menuitem {
     float: right;
         color: #666666;
-        font-weight:bolder;
+        font-weight:300;
 }
 
 .fab {
@@ -57,13 +58,15 @@ body {
 }
 
 .full {
-    max-width: 80%;
-    margin-top: 10rem;
-    margin: auto;
-    padding: 3rem;
-    background:#f9f9f9;
-    padding-top: 5rem;
+  max-width: 60%;
+  margin-top: 10rem;
+  margin: auto;
+  margin-left: 6rem;
+  padding: 3rem;
+  padding-top: 5rem;
+  float: left;
 }
+
 
 @media only screen and (max-width: 600px) {
   .full {
@@ -110,8 +113,9 @@ h1 {
 }
 
 h3 {
-  line-height: 2;
-  font-weight: 300;
+  line-height: 1.8;
+  font-weight: 600;
+  font-size: 1.9rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -364,6 +368,7 @@ h4 {
   .homepagearticlelink {
     text-align: left;
     margin-top: 60px;
+    border-bottom:1px dotted #666666;
   }
 }
 
